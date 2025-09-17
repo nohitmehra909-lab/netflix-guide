@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Netflix Tips — Unlock</title>
+  <meta name="description" content="Get Netflix tips & legal ways — Unlock guide" />
+  <style>
+    :root{--bg:#0b0b0b;--card:#111;--accent:#e50914;--muted:#bdbdbd}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#050505 0%, #0b0b0b 100%);color:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+    .card{width:100%;max-width:420px;background:var(--card);border-radius:18px;padding:22px;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.6)}
+    .avatar{width:96px;height:96px;border-radius:18px;object-fit:cover;margin:0 auto 14px;display:block;border:3px solid rgba(255,255,255,.06)}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:6px 0 18px;color:var(--muted);font-size:13px}
+    .btn{display:block;width:100%;padding:12px 14px;margin:10px 0;border-radius:12px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,.06);color:var(--muted);font-weight:600}
+    .small{font-size:12px;color:var(--muted);margin-top:12px}
+    .icons{display:flex;gap:8px;justify-content:center;margin-top:12px}
+    .icons a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;background:rgba(255,255,255,.04);color:#fff;text-decoration:none}
+    .notice{background:rgba(255,255,255,.03);padding:10px;border-radius:10px;margin-top:14px;font-size:13px;color:var(--muted)}
+    @media(min-width:600px){body{padding:40px}.card{padding:28px}}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <!-- Replace src with your logo or avatar -->
+    <img class="avatar" src="https://i.imgur.com/OV6KXQZ.png" alt="logo" />
+    <h1>Netflix Free Tips 2025</h1>
+    <p class="lead">Legal tips, deals & a free guide. Complete one quick verification to unlock the guide.</p><!-- Primary CTA: points to the Content Locker / Bitly link -->
+<a class="btn" id="primaryBtn" href="https://bit.ly/Netflix2025-Free" target="_blank" rel="noopener">🔓 Unlock Free Netflix Guide</a>
+
+<!-- Secondary actions -->
+<a class="btn secondary" id="telegramBtn" href="https://t.me/YourGroupName" target="_blank" rel="noopener">Join Telegram for Daily Updates</a>
+<a class="btn secondary" id="youtubeBtn" href="https://youtube.com/YourChannel" target="_blank" rel="noopener">Subscribe on YouTube</a>
+
+<div class="icons">
+  <a href="#" title="Share" id="shareBtn">🔗</a>
+  <a href="mailto:youremail@example.com" title="Contact">✉️</a>
+  <a href="#" title="Privacy">🔒</a>
+</div>
+
+<div class="notice">Note: This page links to a verified guide. We do not share or promote hacked/unauthorized accounts. Read our privacy & safety rules before proceeding.</div>
+
+<div class="small">Made for Instagram bio — mobile friendly. Edit links inside the HTML to your real Bitly / Telegram / YouTube URLs.</div>
+
+  </main>  <script>
+    // Optional: simple share handler for mobile
+    document.getElementById('shareBtn').addEventListener('click', async function(){
+      const url = window.location.href;
+      const title = 'Free Netflix Guide 2025';
+      if(navigator.share){
+        try{await navigator.share({title, url});}catch(e){}
+      } else {
+        prompt('Copy this link to share:', url);
+      }
+    });
+
+    // Auto-open primary button on desktop click (optional behaviour commented out)
+    // document.getElementById('primaryBtn').click();
+  </script></body>
+</html>
